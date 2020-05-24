@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylos1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <title> CAJERO AUTOMATICO QUISPES SUMIRE</title>
+</head>
+<body>
+    <section class="cajaprincipal">
+            <section class="caja-sup">
+                <div>
+                    <table style="float: left; " >
+                        <tr>
+                            <td>
+                                <button class="boton">  <img src="imagenes/fecha_derecha.png" alt="" width="30px" height="20px"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="boton">  <img src="imagenes/fecha_derecha.png" alt="" width="30px" height="20px"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="boton">  <img src="imagenes/fecha_derecha.png" alt="" width="30px" height="20px"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="boton">  <img src="imagenes/fecha_derecha.png" alt="" width="30px" height="20px"></button>
+                            </td>
+                    
+                        </tr>
+                        
+                    </table>
+                </div>
+                <section class="pantalla" style="float: left" >
+                            <section id="pantalla1">
+                            <div >
+                                    <h1 class="letra_pantalla1">!Bienvenido al banco! </h1>
+                                    <h2 class="letra_pantalla2">Por Favor Digite Su clave</h2>
+                                    <input type="password"  id="pass" class="ca" disabled >
+                                    <div id="mensaje" style="display: none;">
+                                        <p  class="mensaje"> CONTRASEÑA INCORRECTA!!!! </p>
+                                    </div>
+                                </div>
+                            </section>
+                           
+                            <section id="pantalla2" style="display: none;">
+                                <header>
+                                    <div class="titulo2"> MENU PRINCIPAL</div>
+                                </header>
+                            </section>
+                            
+                </section>
+                <section class="section2.0 ">
+                    <div>
+                        <table  >
+                            <tr>
+                                <td>
+                                    <button class="boton1">  <img src="imagenes/fecha_izquierda.png" alt="" width="30px" height="20px"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="boton1">  <img src="imagenes/fecha_izquierda.png" alt="" width="30px" height="20px"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="boton1">  <img src="imagenes/fecha_izquierda.png" alt="" width="30px" height="20px"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="boton1">  <img src="imagenes/fecha_izquierda.png" alt="" width="30px" height="20px"></button>
+                                </td>
+                        
+                            </tr>
+                            
+                        </table>
+                    </div>
+               
+
+                </section>
+            </section>
+            <section class="caja-inf">
+                <section class="botones_g" > 
+                   <div class="numeros" style="float: left;" id="n_p"> 
+                    <div>
+                        <button id="n1" class="botoncito " onclick="login('1')" > 1 </button>
+                        <button id="n2" class="botoncito" onclick="login('2')"> 2 </button>
+                        <button id="n3"class="botoncito"onclick="login('3')">  3 </button>
+                    </div>
+                    <div>
+                        <button id="n4" class="botoncito" onclick="login('4')"> 4 </button>
+                        <button id="n5" class="botoncito" onclick="login('5')"> 5 </button>
+                        <button id="n6" class="botoncito"onclick="login('6')"> 6 </button>
+                    </div>
+                    <div>
+                        <button id="n7" class="botoncito"onclick="login('7')" > 7 </button>
+                        <button id="n8" class="botoncito"onclick="login('8')"> 8 </button>
+                        <button id="n9" class="botoncito"onclick="login('9')"> 9 </button>
+                    </div>
+                    <div >
+                        <button id="n121" class="botoncito" disabled >.</button>
+
+                        <button id="n10" class="botoncito" onclick="login('0')"> 0 </button>
+                        <button id="n11" class="botoncito" onclick="login('.')"> . </button>
+                    </div>
+                    
+                   </div>
+                </section>
+                <section  style="float: left;" >
+                    <div>
+                        <div>
+                            <button  id="cancelar" class="botones_op" style="background-color: red;"> CANCELAR </button>
+                        </div>
+                        <div>
+                            <button id="limpiar" class="botones_op" style="background-color: chocolate;"> CLEAR </button>
+                        </div>
+                        
+                        <div>
+                            <button id="ok" class="botones_op" style="background-color: green;" onclick="validar()" > OK  </button>
+                        </div>
+                       
+                    </div>
+                </section>
+                <section class="naruto">
+                    <div  >
+                        <div>
+                            <div class="texto1" > CARD </div>
+
+                            <div class="cuadrado1" ></div>
+                            <div class="texto2" > RECEIPT </div>
+
+                            <div class="cuadrado1"></div>
+                        </div>
+                        <div>
+                            <div class="texto3" > CASH </div>
+
+                            <div class="cuadrado2"> </div>
+
+                        </div>
+                        <div>
+                            <div class="texto4" > DEPOSITED </div>
+
+                            <div class="cuadrado3"> </div>
+
+                        </div>
+                    </div>
+                </section>
+                
+            </section>
+    </section>
+    <script src="js/login.js"></script>
+</body>
+</html>

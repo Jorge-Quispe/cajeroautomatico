@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cajaprincipal{
+    width: 900px;
+    height:630px;
+    background-color: gray;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 70px;
+    
+}
+.boton{
+ width: 40px;
+ height: 30px;
+border-radius: 0.5rem;
+border: none ;
+margin-top: 40px;
+margin-left: 50px;
+}
+.boton1{
+    width:40px;
+    height:30px;
+   border-radius: 0.5rem;
+   border: none ;
+   margin-top: 40px;
+   margin-left: 700px;
+
+   }
+.pantalla{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(245, 218, 69);
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 190px;
+    border-radius: 0.5rem;
+    border: 10px solid rgba(96, 100, 100, 0.993);
+}
+.botoncito{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black; 
+  }       
+
+.botones_op{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 1px solid black;  
+}
+.botones_g{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.naruto{
+float: right;
+width: 580px;
+height:250px;
+margin-right: -20px;
+}
+.cuadrado1 {
+  width: 200px;
+  height: 15px;
+  background-color: rgb(54, 52, 52);
+   border-radius: 10px;
+    border: 5px solid rgba(128, 128, 128, 0.534);
+    float: left;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+ 
+   .cuadrado2 {
+    width: 400px;
+    height: 15px;
+    background-color: rgb(54, 52, 52);
+    border-radius: 10px;
+    border: 5px solid rgba(128, 128, 128, 0.534);
+    margin-left: 60px; 
+    position: absolute;
+    margin-top: 100px;
+   }
+   .cuadrado3 {
+    width: 400px;
+    height: 15px;
+    background-color: rgb(54, 52, 52);
+    border-radius: 10px;
+    border: 5px solid rgba(128, 128, 128, 0.534);
+    margin-left: 60px; 
+    position: absolute;
+    margin-top: 180px;
+   }
+    
+   .texto1 {
+    width: 100px;
+     height: 20px;
+      margin-left: 70px;
+      margin-top: 5px;
+        text-align: center;
+      position: absolute;
+    }
+    .texto2 {
+       
+          margin-left: 70px;
+          margin-top: 5px;
+          position: absolute;
+          text-align: center;
+          padding-left: 300px;
+        }
+        .texto3 {   
+            
+            margin-left: 250px;
+
+            position: absolute;
+            text-align: center;
+            padding-top: 80px;
+            }
+            .texto4 {   
+            
+                margin-left: 240px;
+    
+                position: absolute;
+                text-align: center;
+                padding-top: 160px;
+                }
+      
+ .letra_pantalla1{
+  font-size: 37px;
+  
+ }  
+ .ca{
+   right: 400px;
+   margin-top: 20px;
+   width: 200px;
+   height: 25px;
+   border: 1px solid chocolate;
+   margin-left: 20px;
+ }
+ .mensaje{
+   font-size: 30px;
+   margin-top: 20px;
+   margin-left: 20px;
+ }
+ .titulo2{
+   position: absolute;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 30px;
+  color: rgb(245, 169, 69);
+  margin-top: 15px;
+  margin-left: 123px;
+ }
